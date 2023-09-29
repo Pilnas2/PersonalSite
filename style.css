@@ -1,0 +1,70 @@
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+  text-align: center;
+}
+.title-text {
+  font-family: "Noto Serif NP Hmong", serif;
+}
+
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  text-align: center;
+  color: #6499e9;
+  font-family: "Crimson Text", serif;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 357px;
+  width: 598px;
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 100%; /* Ujistí se, že obrázek nepřesáhne 100% šířky obrazovky */
+    height: auto; /* Udrží původní poměr stran obrázku */
+  }
+}
+.custom-bg {
+  background-color: #9eddff;
+}
+.custom-c {
+  color: #6499e9;
+}
+
+.profile-photo {
+  height: 200px;
+  width: 200px;
+}
+
+.dotted-hr {
+  border-top: 8px dotted #000000;
+  width: 4%;
+}
+.hr {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .dotted-hr {
+    border-top: 3px dotted #000;
+    margin: 10px 0;
+    width: 5%;
+  }
+}
+.custom-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.custom-link:hover {
+  color: black;
+  font-size: 1.2em;
+}
