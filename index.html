@@ -27,6 +27,29 @@
     />
   </head>
   <body>
+    
+    <section class="mb-2">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <button data-mdb-button-init class="navbar-toggler first-button" type="button" data-mdb-collapse-init
+            data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
+          </button>
+        </div>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent9">
+        <div class="bg-body-tertiary shadow-3 p-4">
+          <button><a href="#a">ahahoj</a></button>
+          <button data-mdb-button-init data-mdb-ripple-init
+            class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+          <button data-mdb-button-init data-mdb-ripple-init
+            class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-block m-0">Link
+            3</button>
+        </div>
+      </div>
+    </section>
     <div class="top-container custom-bg">
       <div class="px-4 py-5 my-1 text-center bg-mint custom-c">
         <h1 class="display-5 fw-bold title-text">I´m Martin</h1>
@@ -67,8 +90,8 @@
       <hr class="dotted-hr" />
     </div>
     <div class="bottom-container">
-      <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 custom-c">Selected Works</h2>
+      <div class="container px-4 py-5 " id="custom-cards">
+        <h2 id="a" class="pb-2 custom-c">Selected Works</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
@@ -218,5 +241,8 @@
         </ul>
       </footer>
     </div>
+    <script src="script.js"
+     ></script>
+
   </body>
 </html>
