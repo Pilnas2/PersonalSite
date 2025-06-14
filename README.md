@@ -1,1 +1,1 @@
-LIVE SITE [HERE] (https://pilnas2.github.io/PersonalSite/)
+LIVE SITE [HERE](https://pilnas2.github.io/PersonalSite/)
